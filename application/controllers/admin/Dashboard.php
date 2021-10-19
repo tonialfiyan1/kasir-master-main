@@ -16,4 +16,8 @@ class Dashboard extends CI_Controller {
 
 		$this->load->view('admin/dashboard/index', $data);
 	}
+	public function ham($value='')
+	{
+		
+	}
 }
